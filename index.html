@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="VR game development, Google Cardboard, virtual reality, Olga Agafonova">
+  <meta name="author" content="Olga Agafonova">
 
   <title>Olga Agafonova Portfolio</title>
 
@@ -69,7 +69,7 @@
             <a href="#page-top"></a>
           </li>
           <li>
-            <a class="page-scroll" href="#about">Apps</a>
+            <a class="page-scroll" href="#fireescape">Apps</a>
           </li>
           <li>
             <a class="page-scroll" href="#contact">Contact</a>
@@ -99,62 +99,212 @@
       </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-      <div class="row">
+    <!-- Fire Escape Section -->
+    <section id="fireescape" class="content-section text-center">
+      <div class="fire-section">
+        <div class="container">
 
-        <h2>The Puzzler</h2>
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Fire Escape Development Journal</h2>
+            <h4>May 29, 2017</h4>
 
-        <div class="col-lg-8 col-lg-offset-2">
+            <p class="text-justify">
+              Fire Escape is my most complex Cardboard project yet. It's been over three months since
+              I started working on it and I am on the third iteration of the house and elevator models,
+              which are central to the game. The goal is simple: the player needs to rescue his
+              pet guinea pigs from a burning house.
+            </p>
 
-          <p class="text-justify"> The Puzzler is an immersive mobile VR application that uses “Simon Says” game mechanic.
-            The game is set in a medieval dungeon which sits in a remote mountain valley.
-            As the player hears the plaintive sounds of Scottish bagpipes,
-            she is invited to enter the dungeon and solve the puzzle.
-          </p>
+            <p class="text-justify">
+              In <u>Die Hard</u>, there's an elevator shaft scene where a fireball almost
+              engulfs Kevin Costner's character. So I thought, why not throw in some special
+              effects and suspense into my VR capstone project? And off I went, spending a lot of
+              time looking at elevator models online (because my Blender modeling skills are not there yet).
+            </p>
 
-        </div>
-        <!-- column -->
-        <div class="col-xs-6">
-          <div class="thumbnail">
-            <img src="img/VRPuzzler1.JPG">
+           <p class="text-justify">
+              It turned out that the big challenge is to integrate the elevator into the mesh of a house.
+              Here are screenshots of the first two attempts.
+            </p>
+
           </div>
-        </div>
 
-        <!-- column -->
-        <div class="col-xs-6">
-          <div class="thumbnail">
-            <img src="img/VRPuzzler2.JPG">
+          <!-- column -->
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="img/CombiningModels.png">
+            </div>
           </div>
+
+          <!-- column -->
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="img/house_outside_attempt2.png">
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2">
+
+            <p class="text-justify">
+              The model on the top was modified in SketchUp and imported into Unity. Unfortunately, it did
+              not look good in Unity in several places and patching the mesh with a plane here and there
+              made things worse.
+            </p>
+
+            <p class="text-justify">
+              After several weeks of after-hours work, I was quite happy with the second iteration that
+              is on the bottom. There were a few awkward places around the elevator but those
+              imperfections looked fine with the textures applied to the model.
+            </p>
+
+            <p class="text-justify">
+              I was getting pretty close to the end: the game logic was there, the animations
+              and special effects were complete and the UI was mostly done, too.  I wanted some
+              in-depth design feedback before I wrapped up development and began the Apple and Google Play
+              store submission process.
+            </p>
+
+            <p class="text-justify">
+              And... the universe finally gave me a break. The Udacity VR program is really my only venue for VR-related
+              professional development -- not a lot of people know about VR in SC and there are certainly no startups
+              (that I know of) engaged in VR application development. </p>
+            </p>
+
+            <p class="text-justify">
+              A Udacity classmate mentioned this raffle thing for discounted Google IO 2017 tickets. I thought, yeah,
+              that's a long shot but I entered anyway out of curiosity. The form said they'd charge me the price of the ticket if I won,
+              blah blah.
+            </p>
+
+           <p class="text-justify">
+              This was in early April. I continued working on Fire Escape. And then lo and behold, I get an email
+              saying congratulations, we've charged your credit card, and we'll see you in Mountain View in May.
+            </p>
+
+            <p class="text-justify">
+              The last time I was in Mountain View was way back in 2014 during the final phase of my co-op.
+              I miss both the city and that general feeling of sunny optimism and opportunity that permeates
+              Silicon Valley. Of course, it helped that internships did't feel like full-time work, so there
+              was time to run off and just explore stuff.
+            </p>
+
+            <p class="text-justify">
+              Anyway, the IO schedule indicated several sessions about Daydream and Tango, the augmented reality platform,
+              so I booked the plane tickets and flew West.
+            </p>
+
+          </div>
+
+          <!-- column -->
+          <div class="col-lg-12">
+            <div class="thumbnail">
+              <img src="img/GoogleIO2017.JPG">
+              <p style="color: black;">Huge thanks to Women Techmakers for the ticket!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2">
+
+            <p class="text-justify">
+              Google didn't disappoint. The logistics involved in taking care of some 7,000 people
+              at the event were impressive: there were contractors for transportation, food, security
+              and general event organization. Multiple sessions on topics ranging from machine learning
+              to marketing to IoT devices were scheduled every hour from early morning till after
+              six.
+            </p>
+
+            <p class="text-justify">
+              There was only a small but persistent group of people interested in getting feedback about
+              their VR/AR apps. I heard predictable bad news about releasing Fire Escape on the iPhone:
+              1) the GVR SDK wasn't optimized for the iPhone and 2) there was no indication that Daydream would be available on iPhones
+              at all, ever.
+            </p>
+
+            <p class="text-justify">
+              My view on this as a developer with very limited financial and temporal resources is first of all, that
+              I need to develop for VR with the tools that I have, not the tools that I'd like to have.
+              Which means I am releasing this thing for the iPhone and for Cardboard, instead of
+              waiting to get a Daydream-compatible device and the Daydream headset.
+            </p>
+
+            <p class="text-justify">
+              Second, I want to reach the entire mobile market. And yes, Android has the lion's
+              share of it but that doesn't mean all those iPhone users should miss out on affordable
+              VR experiences. I don't know that many people who would be willing to shell
+              out ~ $700 for a high-end Android device if they already have iPhones.
+            </p>
+
+            <p class="text-justify">
+              I did get some feedback on Fire Escape: I need to fix the noticable lag that occurs
+              in parts of the mesh and spruce up the UI.
+            </p>
+
+            <p class="text-justify">
+              Since returning, I've been trying to figure out what's slowing the application down.
+              All the shaders are set to mobile, so I eventually narrowed it down to the house mesh
+              itself and... jettisoned it with great sadness. Here's what the third iteration of the
+              house-elevator environment looks like now.
+            </p>
+
+          </div>
+
+          <!-- column -->
+          <div class="col-lg-12">
+            <div class="thumbnail">
+              <img src="img/elevator_thirdincarnation.png">
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2">
+
+            <p class="text-justify">
+              This is a simpler mesh and I hope this will solve the lag issue. I'll have to redo
+              the door animations and re-arrange the guinea pig models before I build to iPhone
+              but the good news is that I notice no lag in Unity play mode.
+            </p>
+
         </div>
 
       </div>
-
-      <div class="row">
-
-        <!-- column -->
-        <div class="col-xs-6">
-          <div class="thumbnail">
-            <img src="img/DungeonFront.png">
-          </div>
-        </div>
-
-        <!-- column -->
-        <div class="col-xs-6">
-          <div class="thumbnail">
-            <img src="img/DungeonInside.png">
-          </div>
-        </div>
-
-      </div>
-
-      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/wwXB-HdHQrU" frameborder="0" allowfullscreen></iframe></p>
-
     </div>
   </section>
 
-  <!-- Download Section -->
-  <section id="download" class="content-section text-center">
+    <!-- VR Space Section -->
+    <section id="vrspace" class="content-section text-center">
+      <div class="web-section">
+        <div class="container">
+
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>VR Space</h2>
+            <p class="text-justify"> VR Space is a two-level game for Google Cardboard with two simple
+              objectives: collecting space trash and shooting down asteroids. The game
+              includes ambient sounds and explosion special effects. It was developed during Udacity VR Jam
+              #1 with two other collaborators in February 2017.
+            </p>
+          </div>
+
+          <!-- column -->
+          <div class="col-xs-6">
+            <div class="thumbnail">
+              <img src="img/Spaceship.png">
+            </div>
+          </div>
+
+          <!-- column -->
+          <div class="col-xs-6">
+            <div class="thumbnail">
+              <img src="img/Spaceship_Behind.png">
+            </div>
+          </div>
+
+          <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LO7245HkTQc" frameborder="0" allowfullscreen></iframe></p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VR Expo Section -->
+  <section id="vrexpo" class="content-section text-center">
     <div class="download-section">
       <div class="container">
         <div class="col-lg-8 col-lg-offset-2">
@@ -208,40 +358,59 @@
     </div>
   </section>
 
-  <!-- VR Space Section -->
-  <section id="vrspace" class="content-section text-center">
-    <div class="web-section">
-      <div class="container">
+    <!-- Puzzler Section -->
+    <section id="puzzler" class="container content-section text-center">
+      <div class="row">
+
+        <h2>The Puzzler</h2>
 
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>VR Space</h2>
-          <p class="text-justify"> VR Space is a two-level game for Google Cardboard with two simple
-            objectives: collecting space trash and shooting down asteroids. The game
-            includes ambient sounds and exposion special effects. It was developed during Udacity VR Jam
-            #1 with two other collaborators in February 2017.
-            </thead>
+
+          <p class="text-justify"> The Puzzler is an immersive mobile VR application that uses “Simon Says” game mechanic.
+            The game is set in a medieval dungeon which sits in a remote mountain valley.
+            As the player hears the plaintive sounds of Scottish bagpipes,
+            she is invited to enter the dungeon and solve the puzzle.
           </p>
-        </div>
 
+        </div>
         <!-- column -->
         <div class="col-xs-6">
           <div class="thumbnail">
-            <img src="img/Spaceship.png">
+            <img src="img/VRPuzzler1.JPG">
           </div>
         </div>
 
         <!-- column -->
         <div class="col-xs-6">
           <div class="thumbnail">
-            <img src="img/Spaceship_Behind.png">
+            <img src="img/VRPuzzler2.JPG">
           </div>
         </div>
 
-        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/LO7245HkTQc" frameborder="0" allowfullscreen></iframe></p>
+      </div>
+
+      <div class="row">
+
+        <!-- column -->
+        <div class="col-xs-6">
+          <div class="thumbnail">
+            <img src="img/DungeonFront.png">
+          </div>
+        </div>
+
+        <!-- column -->
+        <div class="col-xs-6">
+          <div class="thumbnail">
+            <img src="img/DungeonInside.png">
+          </div>
+        </div>
+
+      </div>
+
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/wwXB-HdHQrU" frameborder="0" allowfullscreen></iframe></p>
 
     </div>
-  </div>
-</section>
+  </section>
 
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">

@@ -234,11 +234,11 @@ a:focus {
   -o-background-size: cover;
 }
 
-.web-section {
+.fire-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  /*background: url(../img/coffee.png) no-repeat center center scroll;*/
+  background: url(../img/mymouse2.png) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
