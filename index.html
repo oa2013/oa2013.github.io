@@ -28,12 +28,16 @@
   <!-- Custom CSS -->
   <link href="css/custom.css" rel="stylesheet">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-28954247-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-28954247-1');
+    </script>
+
 
 </head>
 
@@ -62,9 +66,6 @@
             <a class="page-scroll" href="#dev">Code</a>
           </li>
           <li>
-            <a class="page-scroll" href="#art">Art</a>
-          </li>
-          <li>
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
           <li>
@@ -83,7 +84,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2" id="designIntro">
-            <h1 class="brand-heading">Code & Art</h1>
+            <h1 class="brand-heading">Thoughts on Code...<h1>
+             <h4>...and other things</h4>
               <a href="#about" class="btn btn-circle page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -102,9 +104,44 @@
 
         <h2>Dev Journal</h2>
           
+        <h4>February 23, 2022</h4>
+
+        <p class="thumbnail">
+          <img src="img/reintro.png"
+          alt="re"/></p>
+
+        <p class="text-justify">This is a short review of and some thoughts about the <a href="https://xtraining.kaspersky.com/courses/targeted-malware-reverse-engineering" target="_blank">Targeted Malware Reverse Engineering</a> course currently offered through Kaspersky's online training platform.</p>
+
+        <p class="text-justify">Pros:</p>
+          <ul class="left-align">
+            <li>Content quality: the 10 learning tracks are accompanied by high-quality videos. Each track is centered around a different piece of real-world malware that you analyze with IDA, x64dbg and other tools.</li>
+            <li>VM: You get 100 hours on a VM to complete the assignments.</li>
+            <li>Cost: I purchased the class for under $1000. This is a bargain compared to SANS courses that go for around $7000 a pop for individuals.</li>
+            <li>Support: tech support responded back to me in 24 hours when I had a VM issue -- no complaints here.</li>
+          </ul>
+      
+      <p class="thumbnail">
+            <img src="img/studentvm.PNG"
+            alt="vm"/></p>
+  
+
+        <p class="text-justify">Cons:</p>
+          <ul class="left-align">
+            <li>Learning outcomes: while the course does have hands-on exercises for every track, like other online 
+              classes I've tried, it lacks the rigor of university-level graded assignments where someone looks at your work
+              and offers feedback. It's no fault of the Kaspersky Lab, simply the downside of online learning that's not
+              happening in real-time. There is a Discord support/study group but I have yet to use it.
+            </li>
+            <li>No industry recognition (yet): I'm using this in hopes of taking the reverse class from SANS
+              and getting their RE certification. By itself, the course completion certificate won't mean much
+              to future employers, I'm afraid. 
+            </li>
+          </ul>
+
+
         <h4>July 26, 2021</h4>
           
-        <p class="text-justify">So I've created a short cheat sheet for mapping C data structures to assembly - you can find it <a
+        <p class="text-justify">I've created a short cheat sheet for mapping C data structures to assembly - you can find it <a
         href="https://github.com/oa2013/fromctoassembly/blob/master/fromctoassembly.pdf">here</a>. It's based largely on Dennis Yurichev's book <u>Reverse Engineering for Beginners</u>.</p>
 
         <h4>May 14, 2021</h4>
@@ -171,19 +208,6 @@
    </div>
  </section>
 
- <!-- Art Section -->
- <section id="art" class="container content-section text-center">
-   <div class="row">
-     <div class="col-lg-8 col-lg-offset-2">
-       <h2>Art</h2>
-
-          <p class="text-justify">I'm working on several mixed-media pieces
-               and intend to display their photos here.
-           </p>
-     </div>
-   </div>
- </section>
-
 <!-- About Section -->
 <section id="about" class="container content-section text-center">
   <div class="row">
@@ -226,18 +250,6 @@
 
 <!-- Theme JavaScript -->
 <script src="js/vr.js"></script>
-
-<!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-96230969-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 
